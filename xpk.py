@@ -656,6 +656,9 @@ UserFacingNameToSystemCharacteristics = {
 
     # CPU system characteristics
     # n2-standard-32-$VMs
+    'n2-standard-96-1': SystemCharacteristics(
+      'N/A', 1,'N/A', 'n2-standard-96', 1, AcceleratorType['CPU'], 'n2-standard-96-1'
+    ),
     'n2-standard-32-1': SystemCharacteristics(
       'N/A', 1,'N/A', 'n2-standard-32', 1, AcceleratorType['CPU'], 'n2-standard-32-1'
     ),
